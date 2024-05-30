@@ -3462,3 +3462,53 @@ padding: 1em;
 	width: 360px;
 	height: 640px;
 }
+
+a.whatsapp-button,
+a.facebook-button,
+a.email-button {
+    text-decoration: none !important; /* Elimina el subrayado (si lo hubiera) */
+    outline: none !important; /* Elimina la línea punteada azul alrededor del enlace */
+}
+
+a.whatsapp-button:focus,
+a.facebook-button:focus,
+a.email-button:focus {
+    outline: none !important; /* Asegura que la línea punteada azul desaparezca cuando el enlace esté enfocado */
+}
+
+.social-buttons-footer a {
+    text-decoration: none; /* Elimina el subrayado */
+    outline: none; /* Elimina el contorno azul */
+    border: none; /* Elimina cualquier borde que pueda estar aplicándose */
+    box-shadow: none; /* Elimina cualquier sombra que pueda estar aplicándose */
+}
+
+.social-buttons-footer a:focus,
+.social-buttons-footer a:hover {
+    outline: none; /* Asegura que no aparezca el contorno azul al enfocar o hacer hover */
+    border: none; /* Asegura que no aparezca ningún borde al enfocar o hacer hover */
+    box-shadow: none; /* Asegura que no aparezca ninguna sombra al enfocar o hacer hover */
+}
+
+.social-buttons a {
+    text-decoration: none; /* Elimina el subrayado */
+    outline: none; /* Elimina el contorno azul */
+    border: none; /* Elimina cualquier borde que pueda estar aplicándose */
+    box-shadow: none; /* Elimina cualquier sombra que pueda estar aplicándose */
+}
+
+.social-buttons a:focus,
+.social-buttons a:hover {
+    outline: none; /* Asegura que no aparezca el contorno azul al enfocar o hacer hover */
+    border: none; /* Asegura que no aparezca ningún borde al enfocar o hacer hover */
+    box-shadow: none; /* Asegura que no aparezca ninguna sombra al enfocar o hacer hover */
+}
+
+.html {
+	text-decoration: none; /* Elimina el subrayado */
+    outline: none; /* Elimina el contorno azul */
+    border: none; /* Elimina cualquier borde que pueda estar aplicándose */
+    box-shadow: none; /* Elimina cualquier sombra que pueda estar aplicándose */
+}
+}
+
