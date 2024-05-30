@@ -255,6 +255,10 @@ input, select, textarea {
 				.container.medium {
 					width: 100%;
 				}
+			.imagen2{
+				width:12em;
+				height: 8em;
+			}
 
 		}
 
@@ -2769,6 +2773,10 @@ padding: 1em;
 
 	@media screen and (max-width: 980px) {
 
+		.imagen2{
+				width:12em !important;
+				height: 8em !important; 
+			}
 		/* Basic */
 
 			body, input, select, textarea {
@@ -3153,6 +3161,11 @@ padding: 1em;
 
 	@media screen and (max-width: 736px) {
 
+		.imagen2{
+				width:12em !important;
+				height: 8em !important; 
+			}
+
 		/* Basic */
 
 			body {
@@ -3248,6 +3261,7 @@ padding: 1em;
 			ul.buttons {
 				text-align: center;
 			}
+
 
 		/* Wrapper */
 
