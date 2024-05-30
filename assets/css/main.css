@@ -255,10 +255,7 @@ input, select, textarea {
 				.container.medium {
 					width: 100%;
 				}
-			.imagen2{
-				width:12em;
-				height: 8em;
-			}
+		
 
 		}
 
@@ -2541,7 +2538,7 @@ input, select, textarea {
 	#banner {
 		background-attachment: scroll, scroll, scroll, fixed;
 		background-color: #645862;
-		background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../../images/banner1.jpg");
+		background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../../images/banner1.webp");
 		background-position: bottom left, bottom right, top left, top center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
 		background-size: 25em, 25em, auto, cover;
@@ -2774,8 +2771,10 @@ padding: 1em;
 	@media screen and (max-width: 980px) {
 
 		.imagen2{
-				width:12em !important;
-				height: 8em !important; 
+			margin-top: 10px;
+			margin-bottom: 10px;
+				width:24em !important;
+				height: 16em !important; 
 			}
 
 			.iconof{
@@ -3166,8 +3165,10 @@ padding: 1em;
 	@media screen and (max-width: 736px) {
 
 		.imagen2{
-				width:24em !important;
-				height: 16em !important; 
+			margin-top: 15px;
+			margin-bottom: 15px;
+				width:21em !important;
+				height: 14em !important; 
 			}
 
 			.social-buttons-footer img {
