@@ -2777,6 +2777,10 @@ padding: 1em;
 				width:12em !important;
 				height: 8em !important; 
 			}
+
+			.iconof{
+				margin-left: 70px;
+			}
 		/* Basic */
 
 			body, input, select, textarea {
@@ -3162,9 +3166,13 @@ padding: 1em;
 	@media screen and (max-width: 736px) {
 
 		.imagen2{
-				width:12em !important;
-				height: 8em !important; 
+				width:24em !important;
+				height: 16em !important; 
 			}
+
+			.social-buttons-footer img {
+    height: 50px !important; /* Ajusta el tamaño según sea necesario */
+}
 
 		/* Basic */
 
@@ -3430,7 +3438,14 @@ padding: 1em;
 	background-color: orange;
 }
 
-.icono {
+.iconof {
+	margin-left: 100px;
+	text-decoration: none;
+}
+
+
+.iconoa {
+	
 	text-decoration: none;
 }
 
