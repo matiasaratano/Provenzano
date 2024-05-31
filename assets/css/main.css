@@ -3425,7 +3425,7 @@ padding: 1em;
 .social-buttons-footer {
     display: flex;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 20px;
     margin-bottom: 100px;
 }
 
@@ -3437,10 +3437,12 @@ padding: 1em;
 	background-color: black;
 	border-radius: 5px;
 	border-style: none;
+	color: orange;
 }
 
 .inicio:hover{
 	background-color: orange;
+	color: black;
 }
 
 .iconof {
@@ -3509,6 +3511,17 @@ a.email-button:focus {
     outline: none; /* Elimina el contorno azul */
     border: none; /* Elimina cualquier borde que pueda estar aplicándose */
     box-shadow: none; /* Elimina cualquier sombra que pueda estar aplicándose */
+}
+
+#to-banner{
+	text-decoration: none; /* Elimina el subrayado */
+    outline: none; /* Elimina el contorno azul */
+    border: none; /* Elimina cualquier borde que pueda estar aplicándose */
+    box-shadow: none; /* Elimina cualquier sombra que pueda estar aplicándose */
+}
+.video-picada{
+	display: flex;
+	justify-content: center;
 }
 }
 
