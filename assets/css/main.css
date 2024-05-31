@@ -7,6 +7,7 @@
     font-style: normal;
 }
 
+
 /*
 	Twenty by HTML5 UP
 	html5up.net | @ajlkn
@@ -109,7 +110,7 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #7c8081;
-		font-family: 'Brown-Regular-Regular', sans-serif;
+		font-family: 'BrownRegular', sans-serif;
 		font-size: 15pt;
 		font-weight: 300;
 		letter-spacing: 0.025em;
