@@ -3178,6 +3178,7 @@ padding: 1em;
 #provenzano-video{
 	width: 240px !important;
 	height: 430px !important;
+	margin-bottom: 30px;
 }
 		/* Basic */
 
@@ -3522,6 +3523,7 @@ a.email-button:focus {
 .video-picada{
 	display: flex;
 	justify-content: center;
+
 }
 }
 
